@@ -1,0 +1,193 @@
+.Body-profi{
+    /* border: 2px solid rgb(253, 232, 36);  */
+   width: 99.8%;
+   height: 949px;
+   }
+   .B{
+       /* border: 2px solid rgb(173, 9, 9);  */
+       width: 99.8%;
+       height: 829px;
+       display: flex;
+       justify-content: center; /* Centraliza horizontalmente */
+       align-items: center;     /* Centraliza verticalmente */
+   }
+   
+   .C{
+       /* border: 2px solid rgb(8, 4, 4);  */
+       width: 50%;
+   }
+   
+   .D{
+       width: 99.6%;
+       height: 280px;
+       background-color: #28656ea2;
+       display: flex;
+       
+   }
+   
+   .label-nomeProfissional{
+       position: relative;
+       top: 70px;
+       left: 25%; 
+       font-size: 150%;
+   
+   }
+   
+   .profissional-Um{
+   border-radius: 50%;
+   width: 83%;
+    height: 82%; 
+    padding: 25px;
+    position: relative;
+    left: 30%;
+   
+   }
+   
+   
+   .E{
+   /* border: 2px solid rgb(214, 209, 224);   */
+       width: 99.9%;
+       display: flex;
+       justify-content: space-between;
+       padding-top: 20px;
+   
+   
+   }
+   .F{
+       width: 47%; 
+       height: 360px;
+       background-color: #28656ea2;
+      
+   }
+   
+   .div-do-telefone{
+   width: 90%;
+   height: 2%;
+   padding: 20px;
+   position: relative;
+   top: 3%;
+   /* border: 2px solid rgb(160, 66, 184);  */
+   
+   }
+   
+   .div-do-email{
+       width: 90%;
+       height: 2%;
+       padding: 20px;
+       /* border: 2px solid rgb(160, 66, 184);  */
+   
+   }
+   
+   .label-teleProfissional{
+       /* border: 2px solid rgb(152, 173, 167); */
+       font-size: 140%;
+       position: relative;
+       top: -12px;
+       left: 3px;
+   }
+   
+   .label-emailProfissional{
+       /* border: 2px solid rgb(27, 141, 107);  */
+       font-size: 140%;
+       width: 20%;
+       height: 20px;
+       position: relative;
+       top: -12%;
+       left: 4px;
+   }
+   
+   .label-p-Infor-contato{
+   font-size: 145%;
+   width: 62%;
+   margin-top: 5%;
+   margin-left: 14%;
+   }
+   
+   .button-editar-perfil{
+       position: relative;
+       top: -5%;
+       position: relative;
+       left: 3px; /* Move o contêiner 20px para a esquerda */
+   }
+   
+   .button-excluir-perfil{
+       position: relative;
+       top: -5%;
+       position: relative;
+       left: -20px;
+   }
+   
+   .G{
+       
+       width: 50%;
+       height: 360px;
+       background-color: #28656ea2;
+      
+   }
+   
+   .Breve-descriçao{
+   width: 80%;
+   font-size: 25px;
+   
+   }
+   
+   .tex{
+      
+       height: 90px;
+       width: 92%;
+       padding: 5%;
+       position: relative;
+       top: -50px;
+       font-size: 20px;
+   
+   }
+   
+   .image-upload {
+       text-align: center;
+       padding: 20px;
+     }
+     
+     input[type="file"] {
+       padding: 10px;
+       background-color: #4CAF50;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       font-size: 16px;
+     }
+     
+     input[type="file"]:hover {
+       background-color: #45a049;
+     }
+     
+     .img-profissional{
+       border: 2px solid #ddd;
+       margin-top: 20px;
+       max-width: 100%;
+       border-radius: 8px;
+     }
+
+     .Sideli{
+       border-radius: 100%;
+       width: 89%;
+       height: 80%;
+       padding: 10px;
+       position: relative;
+       left: 90px;
+       top: 17px;
+    }
+
+    .label-GeneroProfissional{
+        position: relative;
+        top: 85px;
+        left: 24%; 
+        font-size: 150%;
+    }
+
+    .label-idadeProfissional{
+        position: relative;
+        top: 100px;
+        left: 25%; 
+        font-size: 150%;
+    }

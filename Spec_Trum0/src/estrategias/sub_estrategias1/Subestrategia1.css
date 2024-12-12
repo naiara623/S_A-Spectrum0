@@ -1,0 +1,110 @@
+.tela {
+    font-family: "Roboto", sans-serif;
+    background-color: #214B51;
+    /* margin: -2vh; */
+    padding: 0; 
+}
+
+.cor-estrategias {
+    background-color: #597b78bf;
+    width: 35%;
+    height: 87.6vh;
+    margin-left: 64.8%;
+    border-radius: 5px;
+    
+    /* border: 2px solid red; */
+}
+
+.coluna-estrategia {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.estrategias-para {
+    color: #EAF4F4;
+    font-size: 165%;
+    margin-left: 5%;
+
+}
+
+.estrategia1 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 100%;
+    height: 7.5vh;
+    margin-left: 5.1%;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia2 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: -2%;
+    width: 100%;
+    height: 7.5vh;
+    margin-left: 5.1%;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia3 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: -2%;
+    width: 100%;
+    height: 7.5vh;
+    margin-left: 5.1%;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia4 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: -2%;
+    width: 100%;
+    height: 7.5vh;
+    margin-left: 5.1%;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-estrategias1{
+    padding-top: -6%;
+
+}
+.text1{
+    padding-top: 17%;
+    font-size: 250%;
+    margin-left: -182%;
+    margin-top: -94%;
+}
+.text2{
+    padding-top: -3%;
+    margin-left: -182%;
+    margin-top: -3%;
+}
+.colunas{
+    flex-direction: column;
+    margin-left: -182%;
+    margin-top: -5%;
+}
+
+.estrategias-para {
+    color: #EAF4F4;
+    font-size: 165%;
+    margin-left: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;  
+    margin-top: 2%;
+}

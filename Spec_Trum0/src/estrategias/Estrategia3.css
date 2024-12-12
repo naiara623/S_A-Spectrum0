@@ -1,0 +1,521 @@
+.tela3 {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    background-color: #214B51;
+    display: flex;
+}
+
+.text1-tela3{
+    margin-top: -47.3%;
+    font-size: 250%;
+    margin-left: 1.3%;
+}
+
+.text2-tela3{
+    
+    margin-left: 1.3%;
+}
+
+.cor-estrategias3 {
+    background-color: #597b78bf;
+    width: 670px;
+    height: 87.7vh;
+    margin-left: 70.7%;
+    border-radius: 5px;
+   
+}
+
+.coluna-estrategia3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 543px;
+
+}
+
+.estrategias-para3 {
+    color: #EAF4F4;
+    font-size: 165%;
+    margin-left: 5%;
+}
+
+.estrategia5 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: 9px;
+    width: 610px;
+    height: 70px;
+    margin-left: 28px;
+    border-color: #597b7800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia6 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: 7px;
+    width: 610px;
+    height: 70px;
+    margin-left: 28px;
+    border-color: #597b7800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia7 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: 7px;
+    width: 610px;
+    height: 70px;
+    margin-left: 28px;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.estrategia8 {
+    background-color: #1e5159;
+    color: #EAF4F4;
+    margin-top: 7px;
+    width: 610px;
+    height: 70px;
+    margin-left: 28px;
+    border-color: #1e515900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.ppp3{
+    margin-left: -2%;
+}
+
+.Preparacao{
+    background-color: #597B78;
+    color: #EAF4F4;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.vizualizar{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.manter{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.dividir{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.historias{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.Tecnicas{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.reforco{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.introduzir{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.suporte{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.objetos{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 65%;
+    height: 7.5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.p{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -72%;
+}
+
+.p2{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -72%;
+}
+
+.p3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -65%;
+}
+
+.p4{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -80%;
+}
+
+.p5{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -81%;
+}
+
+.p6{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -71%;
+}
+
+.p7{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -80%;
+}
+
+.p8{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -57%;  
+}
+
+.s1{
+    font-size: 170%;
+    margin-top: 5%;
+    margin-left: -65.4%;
+}
+
+.p9{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -78%;
+}
+
+.p10{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -77%;
+   
+}
+.s1e1{
+    font-size: 160%;
+    /* border: 2px solid red; */
+    margin-top: 3.5%;
+    width: 22%;
+ 
+ }
+ .s2e1{
+    font-size: 160%;
+    /* border: 2px solid red; */
+    margin-top: 3.5%;
+    width: 38%;
+ }
+ .s3e1{
+     font-size: 160%;
+     /* border: 2px solid red; */
+     margin-top: 3.5%;
+     width: 55%;
+ }
+ .s4e1{
+     font-size: 160%;
+     /* border: 2px solid red; */
+     margin-top: 3.5%;
+     width: 65%;
+ }
+
+.Preparacao{
+ border: none;
+ position: relative;
+ left: -5%;
+}
+
+.vizualizar{
+    border: none;
+}
+
+.manter{
+    border: none;
+}
+
+.dividir{
+    border: none;
+}
+
+.historias{
+    border: none;
+}
+
+.Tecnicas{
+    border: none;
+}
+
+.reforco{
+    border: none;
+}
+
+.introduzir{
+    border: none;
+}
+
+.suporte{
+    border: none;
+}
+
+.objetos{
+    border: none;
+}
+
+.pe3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -72%;
+}
+
+.p2e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -59%;
+}
+
+.p3e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -80%;
+}
+
+.p4e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -64%;
+}
+
+.p5e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -70%;
+}
+
+.p6e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -79%;
+}
+
+.p7e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -76%;
+}
+
+.p8e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -80%;
+}
+
+.p9e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -78%;
+}
+
+.p10e3{
+    margin-top: 1.5%;
+    font-size: 190%;
+    margin-left: -70%;
+}
+
+
+
+
+.Preparacao3{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 2%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.mapa{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.historia{
+
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.rotas{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+
+}
+
+.tectnicas{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+
+}
+
+.itens{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+
+}
+
+.Flexbilidade{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.Reforço{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.Suporte{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}
+
+.Treinamento{
+    background-color: #597B78;
+    color: #EAF4F4;
+    margin-top: 1.7%;
+    width: 60%;
+    height: 7.5vh;
+    border-color: #1e515900;
+    border-radius: 10px;
+    position: relative;
+    left: 1%;
+}

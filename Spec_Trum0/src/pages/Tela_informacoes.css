@@ -1,0 +1,32 @@
+.body-informaçoes{
+    background-color: #214B51;
+    height: 86.9vh;
+    margin-top: 18%;
+    
+  }
+  
+  .container{
+    margin-top: -10.5%;
+  }
+  .TEA{
+    color: #EAF4F4;
+    margin-left: 2%;
+    font-size: 210%;
+    padding-top: 1.5%;
+    font-family: "josefin Sans", sans-serif;
+    
+
+  }
+  .Tra{
+    color: #EAF4F4;
+    margin-left: 2%;
+    font-size: 140%;
+    /* border: 2px solid; */
+    width: 90%;
+    margin-top: -0.1%;
+  }
+
+  .aroz{
+    margin-left: 4%;
+    margin-top: -1.2%;
+  }

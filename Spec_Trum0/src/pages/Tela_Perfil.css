@@ -1,0 +1,1189 @@
+.body-perfil {
+    background-color: #214b51a1;
+}
+
+.amarelo{
+/* border: 3px solid #f7f727d3; */
+width: 99.7%;
+height: 830.6px;
+}
+
+.laranja{
+    /* border: 3px solid #c05407; */
+    width: 99.6%;
+    height: 60px;
+}
+
+.azul{
+    /* border: 3px solid #0a12b3; */
+    width:22.4%;
+height: 81%;
+margin-top: -0% ;
+margin-left: 77.2% ;
+} 
+
+ .rosa{
+/* border: 3px solid #b513b5d3; */
+width: 22.4%;
+height: 81%;
+margin-top: -680px;
+margin-left: 0.0% ;
+}
+
+.roxo{
+/* border: 3px solid #33065fd3; */
+width:99.60%;
+margin-top:  -0px;
+height: 80px;
+}  
+
+.vermelho{
+    /* border:  3px solid  rgb(174, 8, 8); */
+    background-color: #28656ea2;
+    width: 54%;
+    height: 280px;
+    margin-top: -768px;
+    margin-left: 22.8%;
+    display: flex;
+}
+
+.marrom{
+    /* border:  3px solid  rgb(75, 41, 12); */
+    background-color: #28656ea2;
+    width: 23%;
+    height: 367px;
+    margin-top: 20px;
+    margin-left: 22.8%;
+}
+
+.preto{
+     /* border:  3px solid  rgb(9, 8, 7);  */
+    background-color: #28656ea2;
+    width: 30%;
+    height: 367px;
+    margin-top: -387px;
+    margin-left: 46.8%;
+
+
+}
+
+.foto-u {
+   /* border: 2px solid chartreuse ; */
+   border-radius: 100%;
+   width: 23%;
+   height: 80%;
+   margin-left: 110px;
+   margin-top: 25px ;
+ 
+} 
+
+
+ .Label-email {
+    border: 2px solid chartreuse ;
+    margin-left: 46%;
+    padding-top: 3px; 
+} 
+
+.label-nome{
+font-size: 200%;
+margin-top: 7%;
+margin-left: 5.5% ;
+width: 50%;
+height: 10%;
+
+}
+
+.label-idade{
+    font-size: 150%;
+    position: relative;
+    top: 63%;
+    left: -56.2%;
+    width: 35%;
+    height: 10%;
+    /* border: 2px solid yellowgreen; */
+    }
+
+    .label-genero{
+        font-size: 150%;
+        margin-top: 16%;
+        margin-left: -91.6% ;
+        width: 35%;
+        height: 10%;
+        ;
+        }
+
+    .button-excluir-perfil{
+        --color: #EAF4F4;
+        padding: 0.8em 1.7em;
+        background-color: #EAF4F4;
+        border-radius: .3em;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: .5s;
+        font-weight: 400;
+        font-size: 17px;
+        border: 1px solid;
+        font-family: "Josefin Sans", sans-serif;
+        text-transform: uppercase;
+        color: #214b51;
+        z-index: 1;
+        margin-top: 25%;
+        margin-left: 13%;
+    }
+
+    .button-excluir-perfil::before, .button-excluir-perfil::after {
+        content: '';
+        display: block;
+        width: 20%;
+        height: 10px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: 1s ease;
+       }
+       
+       .button-excluir-perfil::before {
+        top: -1em;
+        left: -1em;
+       } 
+       
+       .button-excluir-perfil::after {
+        left: calc(100% + 1em);
+        top: calc(100% + 1em);
+       } 
+       
+       .button-excluir-perfil:hover::before, .button-excluir-perfil:hover::after {
+        height: 410px;
+        width: 410px;
+       } 
+       
+      .button-excluir-perfil:hover {
+        color: #214b51;
+       } 
+       
+        .button-excluir-perfil:active {
+         filter: brightness(.8);
+        }
+
+    .button-editar-perfil {
+        --color: #EAF4F4;
+        padding: 0.8em 1.7em;
+        background-color: #EAF4F4;
+        border-radius: .3em;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: .5s;
+        font-weight: 400;
+        font-size: 17px;
+        border: 1px solid;
+        font-family: "Josefin Sans", sans-serif;
+        text-transform: uppercase;
+        color: #214b51;
+        z-index: 1;
+        margin-top: 25%;
+        margin-left: 17%;
+       }
+       
+       .button-editar-perfil::before, .button-editar-perfil::after {
+        content: '';
+        display: block;
+        width: 20%;
+        height: 10px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: 1s ease;
+       }
+       
+       .button-editar-perfil::before {
+        top: -1em;
+        left: -1em;
+       } 
+       
+       .button-editar-perfil::after {
+        left: calc(100% + 1em);
+        top: calc(100% + 1em);
+       } 
+       
+       .button-editar-perfil:hover::before, .button-editar-perfil:hover::after {
+        height: 410px;
+        width: 410px;
+       } 
+       
+      .button-editar-perfil:hover {
+        color: #214b51;
+       } 
+       
+        .button-editar-perfil:active {
+         filter: brightness(.8);
+        }
+
+    .informa-contato-perfil{
+        font-size: 155%;
+        color: rgb(243, 248, 253);
+        margin-left: 60px;
+        padding-top: 17px;
+        height: 40px;
+        width: 80%;
+        
+    }
+
+    .label-email{
+        font-size: 145%;
+        margin-top: -15%;
+        margin-left: 4.5% ;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .email-perfil{
+        margin-left: 14.5%;  
+        margin-top: 2%;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .div-telefone-perfil{
+        margin-top: 21%;
+        font-size: 145%;
+        margin-top: 4%;
+        margin-left: 5%;
+        height: 40px;
+        width: 90%;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .perguntas-perfil{
+        margin-top: 3%;
+        margin-left: 2%;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .BREVE_DESCRIÇÃO{
+    font-size: 149%;
+    margin-left: 20px;
+    padding-top: 2%;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.nivela-TEA{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.foi-quando{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.maiores-necessidades{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 20px;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.seus-interesses{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.quais-profissionais{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 115%
+    ;
+}
+
+.quais-dificuldades{
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.alguma-comorbidade{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: -28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.l3-perfil{
+    margin-left: 9px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.formContainer {
+    height: 150%;
+    /* change the width here if you want */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    top: -150%;
+    left: 20%;
+  }
+
+  /* This selects the label inside "formContainer*/
+  .formContainer > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer > input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer > input:focus::placeholder {
+    color: transparent;
+  }
+
+
+
+ 
+  .formContainer2 {
+    height: 130%;
+    /* change the width here if you want */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    top: -120%;
+    left: 22%;
+  }
+
+  /* This selects the label inside "formContainer*/
+  .formContainer2 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer2 > input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer2 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer2 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer2 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer2 > input:focus::placeholder {
+    color: transparent;
+  }
+  
+
+
+
+  .formContainer3 {
+    height: 140%;
+    width: 190px; /* Mantenha a largura do select */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    position: relative;
+    top: -120%;
+    left: 25%;
+  }
+  
+  /* Estilo para o label dentro de .formContainer3 */
+  .formContainer3 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para o select dentro de .formContainer3 */
+  .formContainer3 > select {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+    z-index: 5;
+    appearance: none; /* Remove a seta padrão do select */
+    -webkit-appearance: none; /* Para o Safari */
+    -moz-appearance: none; /* Para o Firefox */
+  }
+  
+  /* Estilo de foco para o select (sem borda externa e sem sombra) */
+  .formContainer3 > select:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px transparent, 0px 0px 5px transparent inset;
+  }
+  
+  /* Quando o select recebe foco, o label desaparece */
+  .formContainer3 > select:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+  
+  /* Placeholder do select - para mostrar a opção padrão */
+  .formContainer3 > select option:first-child {
+    color: #9a9a9a; /* Cor do placeholder (opção inicial) */
+  }
+  
+  /* O comportamento do select quando não está em foco */
+  .formContainer3 > select option {
+    color: #EAF4F4;
+    background-color: #214b51;
+  }
+  
+  /* Se você quiser um ícone de seta personalizado no select */
+  .formContainer3 > select::after {
+    content: '▼'; /* Ou o seu ícone customizado */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #EAF4F4;
+    pointer-events: none;
+  }
+  
+
+
+
+
+
+
+  .formContainer4 {
+    height: 130%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -10%;
+    left: 45%;
+  }
+
+  /* This selects the label inside "formContainer*/
+  .formContainer4 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer4 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer4 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer4 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer4 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer4 > input:focus::placeholder {
+    color: transparent;
+  }
+
+
+
+
+
+
+
+
+  .formContainer5 {
+    height: 130%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -8%;
+    left: 27%;
+  }
+
+  /* This selects the label inside "formContainer*/
+  .formContainer5 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer5 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer5 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer5 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer5 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer5 > input:focus::placeholder {
+    color: transparent;
+  }
+
+
+  .formContainer6 {
+    height: 130%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 65%;
+  }
+
+  /* This selects the label inside "formContainer*/
+  .formContainer6 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer6 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer6 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer6 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer6 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer6 > input:focus::placeholder {
+    color: transparent;
+  }
+
+  .formContainer7 {
+    height: 130%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 50%;
+  }
+/* This selects the label inside "formContainer*/
+.formContainer7 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer7 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer7 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer7 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer7 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer7 > input:focus::placeholder {
+    color: transparent;
+  }
+
+  .formContainer8 {
+    height: 130%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 68%;
+  }
+/* This selects the label inside "formContainer*/
+.formContainer8 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer8 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer8 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer8 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer8 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer8 > input:focus::placeholder {
+    color: transparent;
+  }
+
+
+
+  .formContainer9 {
+    height: 130%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 56%;
+  }
+/* This selects the label inside "formContainer*/
+.formContainer9 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer9 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer9 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer9 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer9 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer9 > input:focus::placeholder {
+    color: transparent;
+  }
+
+
+  .formContainer10 {
+    height: 130%;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 68%;
+  }
+/* This selects the label inside "formContainer*/
+.formContainer10 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer10 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer10 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer10 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer10 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer10 > input:focus::placeholder {
+    color: transparent;
+  }
+
+  
+
+
+
+  .formContainer11 {
+    height: 130%;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    /* explanation: Reverse make the label appear visually above the input, when in the HTML it is below so that the "+" selector can work  */
+    gap: 10px;
+    position: relative;
+    margin-top: -4%;
+    left: 62%;
+  }
+/* This selects the label inside "formContainer*/
+.formContainer11 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  /* This selects the input inside "formContainer*/
+  .formContainer11 > input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    z-index: 5;
+  }
+
+  /* If you give the input a class, this would be equal to: 
+  .input:focus */
+  .formContainer11 > input:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow:
+      0px 0px 10px transparent,
+      0px 0px 5px transparent inset;
+  }
+
+  /* This would be equal to: .input:focus+.label */
+  .formContainer11 > input:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+
+  /* This would be equal to: .input::placeholder */
+  .formContainer11 > input::placeholder {
+    color: transparent;
+    transition: all 0.5s ease;
+  }
+
+  /* This would be equal to: .input:focus::placeholder */
+  .formContainer11 > input:focus::placeholder {
+    color: transparent;
+  }
+
+  
+
+  .formContainer12 {
+    height: 130%;
+    width: 190px; /* Mantenha a largura do select */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    position: relative;
+    margin-top: -5%;
+    left: 54%;
+  }
+  
+  /* Estilo para o label dentro de .formContainer3 */
+  .formContainer12 > label {
+    font-family: Basier Square;
+    font-weight: 900;
+    font-size: 15px;
+    color: #214b51a1;
+    text-align: start;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para o select dentro de .formContainer3 */
+  .formContainer12 > select {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #214b51;
+    color: #EAF4F4;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-family: Basier Square;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+    z-index: 5;
+    appearance: none; /* Remove a seta padrão do select */
+    -webkit-appearance: none; /* Para o Safari */
+    -moz-appearance: none; /* Para o Firefox */
+  }
+  
+  /* Estilo de foco para o select (sem borda externa e sem sombra) */
+  .formContainer12 > select:focus {
+    color: #EAF4F4;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px transparent, 0px 0px 5px transparent inset;
+  }
+  
+  /* Quando o select recebe foco, o label desaparece */
+  .formContainer12 > select:focus + label {
+    color: transparent;
+    text-shadow: 0px 0px 10px transparent;
+  }
+  
+  /* Placeholder do select - para mostrar a opção padrão */
+  .formContainer12 > select option:first-child {
+    color: #9a9a9a; /* Cor do placeholder (opção inicial) */
+  }
+  
+  /* O comportamento do select quando não está em foco */
+  .formContainer12 > select option {
+    color: #EAF4F4;
+    background-color: #214b51;
+  }
+  
+  /* Se você quiser um ícone de seta personalizado no select */
+  .formContainer12 > select::after {
+    content: '▼'; /* Ou o seu ícone customizado */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #EAF4F4;
+    pointer-events: none;
+  }
+  
